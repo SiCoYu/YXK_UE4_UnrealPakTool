@@ -4,6 +4,6 @@ set projectdir=$projectDir$
 set unrealPakExe=$unrealPakExe$
 set extractPak=$extractPak$
 set extractPath=$extractPath$
-"%unrealPakExe%" "%extractPak%" -Extract "%extractPath%" -enginedir="%enginedir%"  -projectdir="%projectdir%" -encrypt -encryptionini -platform=%platform%
+"%unrealPakExe%" "%extractPak%" -Extract "%extractPath%" -enginedir="%enginedir%"  -projectdir="%projectdir%" -platform=%platform%
 ping 127.0.0.1 -n 5>nul
 exit

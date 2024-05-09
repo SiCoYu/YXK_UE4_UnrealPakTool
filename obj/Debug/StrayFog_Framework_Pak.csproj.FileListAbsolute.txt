@@ -1,0 +1,12 @@
+D:\WP_YXK\UE5_WP\YXK_UE4_UnrealPakTool\bin\Debug\StrayFog_Framework_Pak.exe.config
+D:\WP_YXK\UE5_WP\YXK_UE4_UnrealPakTool\bin\Debug\StrayFog_Framework_Pak.exe
+D:\WP_YXK\UE5_WP\YXK_UE4_UnrealPakTool\bin\Debug\StrayFog_Framework_Pak.pdb
+D:\WP_YXK\UE5_WP\YXK_UE4_UnrealPakTool\obj\Debug\StrayFog_Framework_Pak.csproj.AssemblyReference.cache
+D:\WP_YXK\UE5_WP\YXK_UE4_UnrealPakTool\obj\Debug\StrayFog_Framework_Pak.Forms.WindowPlatform.WindowPlatform.resources
+D:\WP_YXK\UE5_WP\YXK_UE4_UnrealPakTool\obj\Debug\StrayFog_Framework_Pak.Properties.Resources.resources
+D:\WP_YXK\UE5_WP\YXK_UE4_UnrealPakTool\obj\Debug\StrayFog_Framework_Pak.Resx.ResPakBat.resources
+D:\WP_YXK\UE5_WP\YXK_UE4_UnrealPakTool\obj\Debug\StrayFog_Framework_Pak.StartRisePackBuilderForm.resources
+D:\WP_YXK\UE5_WP\YXK_UE4_UnrealPakTool\obj\Debug\StrayFog_Framework_Pak.csproj.GenerateResource.cache
+D:\WP_YXK\UE5_WP\YXK_UE4_UnrealPakTool\obj\Debug\StrayFog_Framework_Pak.csproj.CoreCompileInputs.cache
+D:\WP_YXK\UE5_WP\YXK_UE4_UnrealPakTool\obj\Debug\StrayFog_Framework_Pak.exe
+D:\WP_YXK\UE5_WP\YXK_UE4_UnrealPakTool\obj\Debug\StrayFog_Framework_Pak.pdb

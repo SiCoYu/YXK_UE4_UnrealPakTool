@@ -19,7 +19,7 @@ namespace StrayFog_Framework_Pak.Resx {
     // 类通过类似于 ResGen 或 Visual Studio 的工具自动生成的。
     // 若要添加或移除成员，请编辑 .ResX 文件，然后重新运行 ResGen
     // (以 /str 作为命令选项)，或重新生成 VS 项目。
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class ResPakBat {
@@ -47,8 +47,8 @@ namespace StrayFog_Framework_Pak.Resx {
         }
         
         /// <summary>
-        ///   使用此强类型资源类，为所有资源查找
-        ///   重写当前线程的 CurrentUICulture 属性。
+        ///   重写当前线程的 CurrentUICulture 属性，对
+        ///   使用此强类型资源类的所有资源查找执行重写。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         internal static global::System.Globalization.CultureInfo Culture {
@@ -62,15 +62,13 @@ namespace StrayFog_Framework_Pak.Resx {
         
         /// <summary>
         ///   查找类似 set platform=$platform$
-        ///::set projectdir=$projectdir$
-        ///::set enginedir=$enginedir$
-        ///::-enginedir=&quot;%enginedir%&quot;  -projectdir=&quot;%projectdir%&quot;
+        ///set enginedir=$engineDir$
+        ///set projectdir=$projectDir$
         ///set unrealPakExe=$unrealPakExe$
         ///set createPakFile=$createPakFile$
         ///set createPakTxt=$createFileName$
-        ///&quot;%unrealPakExe%&quot; &quot;%createPakFile%&quot; -create=&quot;%createPakTxt%&quot; -encryptionini -platform=%platform% -UTF8Output - multiprocess - patchpaddingalign=2048
-        ///ping 127.0.0.1 -n 5&gt;nul
-        ///exit 的本地化字符串。
+        ///&quot;%unrealPakExe%&quot; &quot;%createPakFile%&quot; -create=&quot;%createPakTxt%&quot; -enginedir=&quot;%enginedir%&quot;  -projectdir=&quot;%projectdir%&quot; -encrypt -encryptionini -platform=%platform% -UTF8Output -multiprocess -patchpaddingalign=2048
+        ///pause 的本地化字符串。
         /// </summary>
         internal static string Pak_Create {
             get {
@@ -79,10 +77,14 @@ namespace StrayFog_Framework_Pak.Resx {
         }
         
         /// <summary>
-        ///   查找类似 set unrealPakExe=$unrealPakExe$
+        ///   查找类似 set platform=$platform$
+        ///set enginedir=$engineDir$
+        ///set projectdir=$projectDir$
+        ///set unrealPakExe=$unrealPakExe$
         ///set extractPak=$extractPak$
         ///set extractPath=$extractPath$
-        ///&quot;%unrealPakExe%&quot; &quot;%extractPak%&quot; -Extract &quot;%extractPath%&quot; 
+        ///&quot;%unrealPakExe%&quot; &quot;%extractPak%&quot; -Extract &quot;%extractPath%&quot; -enginedir=&quot;%enginedir%&quot;  -projectdir=&quot;%projectdir%&quot; -encrypt -encryptionini -platform=%platform%
+        ///ping 127.0.0.1 -n 5&gt;nul
         ///exit 的本地化字符串。
         /// </summary>
         internal static string Pak_Extract {
